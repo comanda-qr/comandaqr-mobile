@@ -13,6 +13,11 @@ export default StyleSheet.create({
         alignItems: "center",
         backgroundColor: colors.cardBackground,
         padding: 16,
-        width: '90%'
+        width: '95%',
+        borderRadius: 8,
     },
+    shadow: {
+        shadowColor: '#282828',
+        elevation: 6,
+    }
 });

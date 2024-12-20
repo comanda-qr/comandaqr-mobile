@@ -7,5 +7,5 @@ type CardProps = {
 };
 
 export default function Card({ children }: CardProps) {
-  return <View style={styles.card}>{children && children}</View>;
+  return <View style={[styles.card, styles.shadow]}>{children && children}</View>;
 }
